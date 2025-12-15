@@ -175,6 +175,6 @@ You are required to implement the following schemas with precise types.
 4.  **Error Handling:** If the backend is down, the frontend should show a "Service Unavailable" message, not a white screen.
 
 **Resources Provided:**
-*   Color Palette Hex Codes.
+*   [Design Tokens](./resources/design_tokens.md) (Color Palette Hex Codes).
 *   Logo Assets.
-*   Mock Data JSON (for initial testing).
+*   [Mock Data JSON](./resources/mock_data.json) (for initial testing).

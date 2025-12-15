@@ -26,3 +26,7 @@ npm run dev
 ## Documentation
 *   [Project Brief](./internship_project_brief.md)
 *   [Kickoff Guide](./project_kickoff.md)
+
+## Resources
+*   [Design Tokens](./resources/design_tokens.md)
+*   [Mock Data](./resources/mock_data.json)

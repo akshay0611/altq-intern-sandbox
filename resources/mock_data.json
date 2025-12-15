@@ -1,0 +1,77 @@
+{
+    "stylists": [
+        {
+            "_id": "65a1b2c3d4e5f6001a1b2c3d",
+            "name": "Elena R.",
+            "specialty": "Senior Hair Stylist",
+            "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena",
+            "isActive": true,
+            "averageRating": 4.8
+        },
+        {
+            "_id": "65b2c3d4e5f6002b2c3d4e5f",
+            "name": "Michael T.",
+            "specialty": "Colorist Expert",
+            "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+            "isActive": true,
+            "averageRating": 4.5
+        },
+        {
+            "_id": "65c3d4e5f6003c3d4e5f601a",
+            "name": "Sarah J.",
+            "specialty": "Spa Therapist",
+            "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+            "isActive": true,
+            "averageRating": 4.9
+        },
+        {
+            "_id": "65d4e5f6004d4e5f602b712c",
+            "name": "David K.",
+            "specialty": "Barber",
+            "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+            "isActive": false,
+            "averageRating": 4.2
+        }
+    ],
+    "reviews": [
+        {
+            "_id": "76e5f6005e6f703c823d914d",
+            "visitId": "VISIT-1029",
+            "stylistId": "65a1b2c3d4e5f6001a1b2c3d",
+            "rating": 5,
+            "tags": [
+                "Great Service",
+                "Friendly",
+                "Professional"
+            ],
+            "comment": "Elena was amazing! Exactly the cut I wanted.",
+            "customerName": "Alice W.",
+            "createdAt": "2023-12-01T10:00:00.000Z"
+        },
+        {
+            "_id": "77f6006f704d934e034e025f",
+            "visitId": "VISIT-1030",
+            "stylistId": "65b2c3d4e5f6002b2c3d4e5f",
+            "rating": 4,
+            "tags": [
+                "Good Value"
+            ],
+            "comment": "Color looks good but took a bit longer than expected.",
+            "customerName": "Anonymous",
+            "createdAt": "2023-12-02T14:30:00.000Z"
+        },
+        {
+            "_id": "780071705e04045f145f136a",
+            "visitId": "VISIT-1031",
+            "stylistId": "65c3d4e5f6003c3d4e5f601a",
+            "rating": 5,
+            "tags": [
+                "Relaxing",
+                "Hygiene"
+            ],
+            "comment": "Best massage I've had in months.",
+            "customerName": "Raj P.",
+            "createdAt": "2023-12-03T16:45:00.000Z"
+        }
+    ]
+}

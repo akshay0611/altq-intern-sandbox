@@ -53,8 +53,8 @@ Let's hit the ground running.
 ---
 
 ## 6. Resources
-*   **Project Spec:** [Link to internship_project_brief.md]
-*   **Design System:** [Link to Figma/Tokens]
-*   **API Docs:** [Link if applicable]
+*   **Project Spec:** [internship_project_brief.md](./internship_project_brief.md)
+*   **Design System:** [design_tokens.md](./resources/design_tokens.md)
+*   **API Docs:** Reference `backend/src` for current API structure.
 
 Let's build something great.
