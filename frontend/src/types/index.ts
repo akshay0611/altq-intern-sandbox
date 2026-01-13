@@ -21,14 +21,16 @@ export interface Review {
   createdAt: string;
 }
 
-export interface CreateReviewInput {
+interface CreateReviewInput {
   visitId: string;
   stylistId: string;
   rating: number;
-  tags?: string[];
-  comment?: string;
+  tags: string[];
+  comment: string;
   customerName?: string;
 }
+
+export type { CreateReviewInput };
 
 export interface DashboardStats {
   totalReviews: number;
@@ -40,5 +42,3 @@ export interface DashboardStats {
   };
 }
 
-// Explicit export to ensure Vite recognizes it
-export { CreateReviewInput };
